@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="super_mario" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/super_mario" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/CodeBlocks/SDL/SDL_image.lib" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/SDL/SDL-1.2.15/lib/libSDLmain.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/SDL/SDL-1.2.15/lib/SDL_image.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/super_mario" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/SDL/SDL-1.2.15/lib/SDL_image.lib" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="constantes.h" />
+		<Unit filename="editeur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="editeur.h" />
+		<Unit filename="jeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="jeu.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

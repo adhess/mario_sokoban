@@ -1,0 +1,283 @@
+# depslib dependency file v1.0
+1469912266 source:d:\sujet\projets\super_mario\editeur.c
+	"editeur.h"
+	"constantes.h"
+	<stdio.h>
+
+1469659086 d:\sujet\projets\super_mario\editeur.h
+	<stdlib.h>
+	<SDL.h>
+	"constantes.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110988 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_platform.h
+
+1326110994 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\begin_code.h
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\close_code.h
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_keysym.h
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738640 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1469656962 d:\sujet\projets\super_mario\constantes.h
+
+1469915538 source:d:\sujet\projets\super_mario\jeu.c
+	"jeu.h"
+	"constantes.h"
+	<stdio.h>
+
+1469914741 d:\sujet\projets\super_mario\jeu.h
+	<stdlib.h>
+	<SDL.h>
+	"constantes.h"
+
+1469656960 source:d:\sujet\projets\super_mario\menu.c
+	"constantes.h"
+	<stdio.h>
+	"menu.h"
+
+1469656961 d:\sujet\projets\super_mario\menu.h
+	<stdlib.h>
+	<SDL.h>
+	"constantes.h"
+
+1469914987 source:d:\sujet\projets\super_mario\main.c
+	<SDL.h>
+	<stdio.h>
+	<stdlib.h>
+	<SDL_Image.h>
+	<time.h>
+	"constantes.h"
+	"jeu.h"
+	"menu.h"
+	"editeur.h"
+
+1468408307 c:\program files (x86)\codeblocks\sdl\sdl-1.2.15\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1469912266 source:d:\projets-c\sokoban\super_mario\editeur.c
+	"editeur.h"
+	"constantes.h"
+	<stdio.h>
+
+1469659086 d:\projets-c\sokoban\super_mario\editeur.h
+	<stdlib.h>
+	<SDL.h>
+	"constantes.h"
+
+1469656962 d:\projets-c\sokoban\super_mario\constantes.h
+
+1469914987 source:d:\projets-c\sokoban\super_mario\main.c
+	<SDL.h>
+	<stdio.h>
+	<stdlib.h>
+	<SDL_Image.h>
+	<time.h>
+	"constantes.h"
+	"jeu.h"
+	"menu.h"
+	"editeur.h"
+
+1469973921 d:\projets-c\sokoban\super_mario\jeu.h
+	<stdlib.h>
+	<SDL.h>
+	"constantes.h"
+
+1469656961 d:\projets-c\sokoban\super_mario\menu.h
+	<stdlib.h>
+	<SDL.h>
+	"constantes.h"
+
+1469656960 source:d:\projets-c\sokoban\super_mario\menu.c
+	"constantes.h"
+	<stdio.h>
+	"menu.h"
+
+1470525062 source:d:\projets-c\sokoban\super_mario\jeu.c
+	"jeu.h"
+	"constantes.h"
+	<stdio.h>
+
